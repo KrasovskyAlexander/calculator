@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+	<div class="calculator-grid">
+		<div class="output">
+			<div data-previous-operand class="previous-operand"></div>
+			<div data-current-operand class="current-operand"></div>
+			<div class="error"></div>
+		</div>
+		<button data-all-clear class="span-two">clean</button>
+		<button data-delete class="span-two">del</button>
+		<button data-equals class="span-two">=</button>
+		<button data-number>1</button>
+		<button data-number>2</button>
+		<button data-number>3</button>
+		<button data-number>4</button>
+		<button data-number>5</button>
+		<button data-number>6</button>
+		<button data-number>7</button>
+		<button data-number>8</button>
+		<button data-number>9</button>
+		<button data-number>.</button>
+		<button data-number>0</button>
+		<button data-minus>(+/-)</button>
+		<button data-operation>+</button>
+		<button data-operation>-</button>
+		<button data-operation>*</button>
+		<button data-operation>÷</button>
+		<button data-operation>^</button>
+		<button data-sqrt>√</button>
+	</div>
+	<div class="reference">
+		<p>1)чтобы использовать отрицательные числа,вводим число и нажимаем на кнопку смены знаков (+/-),после чего число можно дописать и после произвести вычисления</p>
+		<p>2)для использования квадратного корня сначала вводим число,затем нажимаем на √</p>
+		<p>3)для возведения в степень нажимаем на число,затем на кнопку ^,после чего на число,которое является степенью</p>
+		<p>4)clean удаляет всё</p>
+		<p>5)del удаляет последнюю цифру</p>
+	</div>
+</body>
+</html>
